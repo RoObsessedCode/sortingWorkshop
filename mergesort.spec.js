@@ -3,7 +3,7 @@ describe('Split Array function', function() {
   var testArr;
 
   beforeEach(function() {
-    testArr = [6, 3, 4, 8, 2, 9, 1, 7, 5];
+    testArr = [16, 3, 4, 8, 2, 9, 1, 7, 5];
   });
 
   it('is able to split an array into two halves', function() {
@@ -16,7 +16,7 @@ describe('Split Array function', function() {
   });
 
   it('handles even and odd sized arrays', function(){
-    expect(sorter.b)
+    expect(split)
   })
 
 
